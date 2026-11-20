@@ -1,0 +1,708 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.4258,
+          31.9961
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Riot Corsicana AI Campus (Direct Powered-Pad Lease \u2014 3 Phases) \u2014 Corsicana, TX",
+        "city": "Corsicana, Navarro Co., TX",
+        "state_country": "TX, USA",
+        "region": "US \u2014 Texas (ERCOT / Oncor)",
+        "is_texas": true,
+        "lat": 31.9961,
+        "lon": -96.4258,
+        "status": "Under Construction",
+        "tier": "Direct Data Center Lease (Net New)",
+        "overlap_landlord": "None (Riot Platforms \u2014 Net New)",
+        "mw": 910.0,
+        "mw_it": 910.0,
+        "mw_gross": 1000.0,
+        "mw_net_new": 910.0,
+        "mw_unit": "910 MW Critical IT (~1,000 MW Gross ERCOT Substation; 40 Blocks: 400 MW Ph. 1 Jun\u2013Sep '27, 200 MW Ph. 2 Dec '27\u2013Jan '28, 310 MW Ph. 3 Jul '28)",
+        "pue": "1.10\u20131.15 (Tenant Modular Direct-to-Chip Liquid Cooling)",
+        "power_utility": "Oncor Electric Delivery / ERCOT 345 kV Navarro Switchyard (Existing 1.0 GW Substation; Triple-Net Power Pass-Through; Mandatory Grid Curtailment Carve-Out)",
+        "cooling_water": "Closed-loop liquid cooling inside Anthropic-supplied modular halls (Riot reimburses up to $4.0M/MW IT or 12% rent credit)",
+        "hardware": "Custom Accelerator / GPU Modular Clusters ($130/kW-mo initial base rent, +3%/yr escalator; ~$28B 15-yr TCV, 2x5-yr options)",
+        "docket_gate": "Effective Nov. 4, 2026 (Riot Q3 2026 Form 10-Q Note 3). Uses Riot's energized/approved ERCOT substation (avoids BTM air-permit gate, though future expansions could require permit modifications) and remains subject to ERCOT SB 6 emergency load-shedding rules; Anthropic holds a 270-day late-delivery phase termination right subject to 30-day cure and up to 365-day force-majeure extension.",
+        "loc_conf": "[HIGH \u2014 Riot Q3 2026 Form 10-Q Note 3]",
+        "mw_conf": "[HIGH \u2014 Riot Q3 2026 Form 10-Q Note 3: 910 MW Critical IT]",
+        "obs_date": "2026-11-19",
+        "notes": "Anthropic's largest single direct US lease: 910 MW IT across 40 blocks (~$28B initial 15-year rent at $130/kW-mo + 3%/yr)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.0672,
+          30.5694
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Riot Rockdale AI Campus (Direct Lease \u2014 Turnkey Shell & O&M) \u2014 Rockdale, TX",
+        "city": "Rockdale, Milam Co., TX",
+        "state_country": "TX, USA",
+        "region": "US \u2014 Texas (ERCOT / Oncor)",
+        "is_texas": true,
+        "lat": 30.5694,
+        "lon": -97.0672,
+        "status": "Under Construction",
+        "tier": "Direct Data Center Lease (Net New)",
+        "overlap_landlord": "None (Riot Platforms \u2014 Net New)",
+        "mw": 191.0,
+        "mw_it": 191.0,
+        "mw_gross": 230.0,
+        "mw_net_new": 191.0,
+        "mw_unit": "191 MW Critical IT (~230 MW Gross Facility; 96 MW Initial Delivery Dec. 2027, Full 191 MW June 2028)",
+        "pue": "1.15\u20131.20 (Closed-Loop Liquid Cooling)",
+        "power_utility": "Oncor Electric Delivery / ERCOT Sandow Switchyard (700 MW Existing Substation on Former Alcoa Smelter Site; Pass-Through Power)",
+        "cooling_water": "Closed-loop liquid cooling; land cleared and graded, backed by Riot's $573.0M senior secured DDTL",
+        "hardware": "AMD Instinct MI450 / Custom Accelerator Clusters (20-yr lease from June 2028 full deployment, ~$9.1B base TCV / $198/kW-mo, 2x5-yr options to $16.1B)",
+        "docket_gate": "Signed Aug. 2026 (Riot Q3 2026 Form 10-Q Note 3 & Aug. 10 8-K). Repurposes existing energized Bitcoin-mining substation capacity in ERCOT; exposed to ERCOT SB 6 grid-emergency curtailment.",
+        "loc_conf": "[HIGH \u2014 Riot Q3 2026 Form 10-Q Note 3]",
+        "mw_conf": "[HIGH \u2014 Riot Q3 2026 Form 10-Q Note 3: 191 MW Critical IT]",
+        "obs_date": "2026-11-19",
+        "notes": "20-year direct data-center lease with Riot Platforms at Rockdale (191 MW IT; ~$9.1B initial TCV), bringing Anthropic's combined Riot Texas footprint to 1,101 MW IT."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7975,
+          31.8492
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Nexus Project Apex Off-Grid Campus (Direct 4-Building Lease, Google-Wrapped) \u2014 Hubbard, TX",
+        "city": "Hubbard, Hill & Navarro Cos., TX (880 SH 171)",
+        "state_country": "TX, USA",
+        "region": "US \u2014 Texas (100% Off-Grid Islanded BTM Gas)",
+        "is_texas": true,
+        "lat": 31.8492,
+        "lon": -96.7975,
+        "status": "Under Construction",
+        "tier": "Direct Data Center Lease (Net New)",
+        "overlap_landlord": "None (Nexus Data Centers \u2014 Net New; Google 20% equity & post-completion wrap)",
+        "mw": 500.0,
+        "mw_it": 500.0,
+        "mw_gross": 612.0,
+        "mw_net_new": 500.0,
+        "mw_unit": "500 MW Critical IT (~612 MW Gross DC across 4 Single-Story Bldgs / ~2M sq ft; Powered by Planned 1.6 GW BTM Gas Plant, Expandable to 5.9 GW)",
+        "pue": "1.18\u20131.22 (Islanded Off-Grid Liquid + Air Cooling)",
+        "power_utility": "100% Islanded Behind-the-Meter Natural Gas (No ERCOT Interconnection; Anthropic holds 4% undivided deed interest in private distribution lines)",
+        "cooling_water": "Closed-loop cooling across 4,000-acre Hill/Navarro tract; 3 of 4 bldgs roofed by Nov. 2026, Bldg 4 at slab stage",
+        "hardware": "Google TPU v8i / Ironwood Pods Leased 5 Yrs from Broadcom ($15.5B Nexus debt stack = $14.2B 1-yr Morgan Stanley bridge due July 2027 + $1.3B 15% Eagle Point mezz, plus $1.4B RCF; Google post-completion lease/power guarantee activates only at shell completion)",
+        "docket_gate": "HIGH PERMITTING & REFINANCING GATE: Although Gov. Abbott resumed TCEQ data-center permit approvals Nov. 13\u201317, 2026 ahead of Gov.-elect Hinojosa's Jan. 19, 2027 inauguration, Nexus holds only a June 2025 engine permit (~490 MW) and Cleanview assesses pending TCEQ Application #183046 (up to 5.2 GW GE turbines; does not sell power to grid) cannot clear before Jan. 19; $5B\u2013$7B HY bond takeout of the $14.2B bridge (due July 2027) was postponed Sept. 2026.",
+        "loc_conf": "[HIGH \u2014 TCEQ Pending App. 183046; MEDIUM \u2014 TDLR & Hill/Navarro Deed Reporting]",
+        "mw_conf": "[LOW-MEDIUM \u2014 Cleanview, Measured AI & WSJ: ~500 MW IT / ~612 MW Gross DC / 1.6 GW Ph. 1 Gas]",
+        "obs_date": "2026-11-19",
+        "notes": "Signed March 16, 2026 (20-yr leases, target Q4 2027\u2013Jan 2028 RFS). Exemplifies Anthropic's 3-balance-sheet model (Nexus land/power + Google wrap + Broadcom TPU lease) and acute Texas BTM air-permit & bridge-refinancing risk."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.7536,
+          37.9014
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "TeraWulf Justified Data Campus (Direct 20-Yr Lease, Google-Wrapped) \u2014 Hawesville, KY",
+        "city": "Hawesville, Hancock Co., KY (Former Century Aluminum Smelter)",
+        "state_country": "KY, USA",
+        "region": "US \u2014 Midwest/South (MISO / Kenergy & Big Rivers)",
+        "is_texas": false,
+        "lat": 37.9014,
+        "lon": -86.7536,
+        "status": "Under Construction",
+        "tier": "Direct Data Center Lease (Partial Overlap: 250 MW in Google Atlas)",
+        "overlap_landlord": "Alphabet Atlas carries 250 MW placeholder (151 MW IT Net New)",
+        "mw": 401.0,
+        "mw_it": 401.0,
+        "mw_gross": 482.0,
+        "mw_net_new": 151.0,
+        "mw_unit": "401 MW Critical IT (482 MW KPSC-Approved Retail Electric Service; 250 MW Already Carried in Alphabet Atlas -> 151 MW Net New)",
+        "pue": "1.15\u20131.20 (Closed-Loop Liquid Cooling; Fluor EPC for 3 Bldgs)",
+        "power_utility": "Kenergy Corp. & Big Rivers Electric Corp. (MISO \u2014 Five Existing 161 kV Transmission Lines & On-Site Energized Smelter Substation; 482 MW Approved by KY PSC Aug. 2026)",
+        "cooling_water": "Closed-loop cooling on 250+ buildable acres ($301.9M TeraWulf acquisition + $15.0M smelter remediation ARO; Fluor EPC signed Oct. 2026)",
+        "hardware": "Google TPU Pods Leased via Broadcom (20-yr initial lease signed July 2026, ~$19B TCV / $197/kW-mo, 2x5-yr options to $33B; Google Nov. 4, 2026 Credit Support Agreement)",
+        "docket_gate": "De-risked utility gate: KY PSC approved 482 MW electric service agreement in August 2026; Google signed binding Credit Support Agreement Nov. 4, 2026 (terminates if Anthropic maintains IG rating for 3 mos). Phased RFS late 2027 through Q2 2028.",
+        "loc_conf": "[HIGH \u2014 TeraWulf Q3 2026 Form 10-Q Notes 8 & 18]",
+        "mw_conf": "[HIGH \u2014 TeraWulf Q3 2026 Form 10-Q: 401 MW Critical IT / 482 MW Utility]",
+        "obs_date": "2026-11-19",
+        "notes": "20-year direct lease with TeraWulf (~$19B initial TCV), wrapped by Google's Nov. 4, 2026 credit support agreement and built by Fluor."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.3656,
+          45.6033
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "EverWind Point Tupper AI Campus (First Canadian Direct Lease) \u2014 Point Tupper, NS, Canada",
+        "city": "Point Tupper (Port Hawkesbury), Cape Breton, Nova Scotia",
+        "state_country": "Nova Scotia, Canada",
+        "region": "International \u2014 Canada (Nova Scotia IESO + Wind)",
+        "is_texas": false,
+        "lat": 45.6033,
+        "lon": -61.3656,
+        "status": "Contracted / In Development",
+        "tier": "Direct Data Center Lease (Net New)",
+        "overlap_landlord": "None (EverWind Fuels \u2014 Net New)",
+        "mw": 95.0,
+        "mw_it": 95.0,
+        "mw_gross": 115.0,
+        "mw_net_new": 95.0,
+        "mw_unit": "95 MW Phase 1 Leased by Anthropic (Online Target YE 2027; Part of 420 MW Two-Phase C$10B Campus w/ 325 MW Phase 2 in 2028)",
+        "pue": "1.10\u20131.15 (Cold-Climate Closed-Loop Water-Glycol Cooling)",
+        "power_utility": "Nova Scotia Provincial Grid Initially + 4 Planned EverWind Onshore Wind Farms (C$2B Wind CapEx; Nova Scotia Total Grid Is ~3,000 MW)",
+        "cooling_water": "Closed-loop water-glycol cooling (~100,000 L/day Phase 1 from Landrie Lake, ~1% of 34M L/day safe yield)",
+        "hardware": "Claude Training & Canadian/Global Inference Clusters (20-yr+ initial lease signed Oct. 16, 2026; corroborates Form 424B4 p. 248 Canadian lease disclosure)",
+        "docket_gate": "Signed Oct. 16, 2026; land clearing underway. Subject to Nova Scotia IESO grid-impact interconnection review and Ecology Action Centre ratepayer/decarbonization scrutiny.",
+        "loc_conf": "[HIGH \u2014 Anthropic Form 424B4 p. 248 & Oct. 16, 2026 Joint Announcement / CBC]",
+        "mw_conf": "[MEDIUM \u2014 EverWind / CBC News Oct. 16, 2026: 95 MW Ph. 1 of 420 MW Campus]",
+        "obs_date": "2026-11-19",
+        "notes": "Corroborates Anthropic Form 424B4's disclosure that it has entered into data-center leases in Canada. 20-year+ lease for 95 MW Phase 1 (target YE 2027)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.7606,
+          -27.0378
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Zerra DC Western Downs Digital Park Stage 1 (Australian Campus Lease) \u2014 Kogan, QLD, Australia",
+        "city": "Kogan (Near Dalby), Western Downs, Queensland",
+        "state_country": "QLD, Australia",
+        "region": "International \u2014 Australia (NEM Queensland Grid)",
+        "is_texas": false,
+        "lat": -27.0378,
+        "lon": 150.7606,
+        "status": "Contracted / In Development",
+        "tier": "Direct Data Center Lease (Net New)",
+        "overlap_landlord": "None (Zerra DC \u2014 Net New)",
+        "mw": 360.0,
+        "mw_it": 360.0,
+        "mw_gross": 420.0,
+        "mw_net_new": 360.0,
+        "mw_unit": "~360 MW Est. Stage 1 Building (1st of 4 Planned Buildings in Zerra DC's 1.44 GW, A$32B / US$22.7B Western Downs Digital Park)",
+        "pue": "1.15\u20131.22 (Closed-Loop Cooling)",
+        "power_utility": "Powerlink Queensland / National Electricity Market (Western Downs Renewable Energy Zone & Existing Baseload Grid)",
+        "cooling_water": "Closed-loop non-potable cooling system; multi-million-dollar Dalby community benefits pledge",
+        "hardware": "APAC Frontier Training & Inference Clusters (Confirmed in Queensland Parliament Sept. 16, 2026; corroborates Form 424B4 p. 248 Australia lease disclosure)",
+        "loc_conf": "[HIGH \u2014 Anthropic Form 424B4 p. 248 & Queensland Parliament Sept. 16, 2026 Confirmation]",
+        "mw_conf": "[LOW \u2014 ~360 MW Pro-Rata Bldg 1 Estimate Inside 4-Building 1,440 MW Application]",
+        "docket_gate": "Confirmed Sept. 16, 2026 by QLD Premier David Crisafulli; subject to local council planning, grid connection, and A$12B\u2013A$15B project financing.",
+        "obs_date": "2026-11-19",
+        "notes": "Anthropic's flagship Australian training/inference campus lease (1st of 4 buildings in Zerra DC's 1.44 GW Kogan development)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1989,
+          -33.8792
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "DigiCo SYD1 Ultimo Colocation Lease (Australian Metro Hub) \u2014 Sydney, NSW, Australia",
+        "city": "Ultimo (Sydney CBD), New South Wales",
+        "state_country": "NSW, Australia",
+        "region": "International \u2014 Australia (Ausgrid / NEM NSW)",
+        "is_texas": false,
+        "lat": -33.8792,
+        "lon": 151.1989,
+        "status": "Under Construction",
+        "tier": "Direct Data Center Lease (Net New)",
+        "overlap_landlord": "None (DigiCo Infrastructure REIT \u2014 Net New)",
+        "mw": 71.0,
+        "mw_it": 71.0,
+        "mw_gross": 88.0,
+        "mw_net_new": 71.0,
+        "mw_unit": "71 MW Critical IT (15-Year Contract at DigiCo SYD1 Reported by AFR Oct. 16, 2026)",
+        "pue": "1.20\u20131.25 (Urban High-Density Liquid Cooling)",
+        "power_utility": "Ausgrid / Transgrid Sydney CBD 132 kV Substations",
+        "cooling_water": "Chilled-water and direct-to-chip liquid cooling expansion",
+        "hardware": "Low-Latency APAC Enterprise Inference Cluster (15-year contract)",
+        "docket_gate": " NSW State Significant Development approval for SYD1 expansion; reported Oct. 16, 2026 by Australian Financial Review.",
+        "loc_conf": "[MEDIUM \u2014 Australian Financial Review Oct. 16, 2026 & Form 424B4 p. 248 Australia Disclosure]",
+        "mw_conf": "[MEDIUM \u2014 DigiCo 71 MW Contract Disclosure]",
+        "obs_date": "2026-11-19",
+        "notes": "Reported 15-year, 71 MW Sydney CBD contract complementing Anthropic's greenfield Queensland campus."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.5542,
+          43.3569
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "TeraWulf Lake Mariner AI Campus (Fluidstack CB-3 Live, CB-4 & CB-5 Ramping) \u2014 Barker, NY",
+        "city": "Barker (Somerset), Niagara Co., NY",
+        "state_country": "NY, USA",
+        "region": "US \u2014 Northeast (NYISO / NYPA Hydro & Nuclear)",
+        "is_texas": false,
+        "lat": 43.3569,
+        "lon": -78.5542,
+        "status": "Operational",
+        "tier": "Fluidstack Managed Campus (Net New)",
+        "overlap_landlord": "None (TeraWulf / Fluidstack \u2014 Net New)",
+        "mw": 378.0,
+        "mw_it": 378.0,
+        "mw_gross": 450.0,
+        "mw_net_new": 378.0,
+        "mw_unit": "378 MW Critical IT Contracted (CB-3 42 MW Live July 5, 2026; CB-4 168 MW Phased Q4 '26; CB-5 168 MW Early '27; 102 MW Total Site HPC Live Sep. 30)",
+        "pue": "1.12\u20131.16 (Closed-Loop Liquid Cooling on Lake Ontario Former 700 MW Coal Plant)",
+        "power_utility": "NYISO Dual 345 kV Lines + 90 MW NYPA Low-Cost Hydropower Allocation (>90% Zero-Carbon Grid)",
+        "cooling_water": "Closed-loop liquid cooling; grandfathered brownfield power infrastructure",
+        "hardware": "Google Ironwood / TPU Pods Financed via Broadcom AI XPV / Apollo WarehouseCo ($35B Tranche) & Operated by Fluidstack (10-yr base lease, >$6.7B TCV, Google Recognition Agreement + 73.58M WULF Warrants; $3.2B 7.75% 2030 Secured Notes)",
+        "docket_gate": "CB-3 (42 MW IT) operational since July 5, 2026 \u2014 Anthropic's first live Fluidstack/TPU facility (Form 424B4 p. 213). NY Gov. Hochul's July 14, 2026 EO 62 >=50 MW moratorium pauses pending applications not complete prior to the order; CB-4/CB-5 rely on pre-existing Lake Mariner utility infrastructure [MEDIUM].",
+        "loc_conf": "[HIGH \u2014 TeraWulf Q3 2026 Form 10-Q Note 8 & Anthropic Form 424B4 p. 213]",
+        "mw_conf": "[HIGH \u2014 TeraWulf Filings: 42 MW CB-3 + 168 MW CB-4 + 168 MW CB-5 = 378 MW IT]",
+        "obs_date": "2026-11-19",
+        "notes": "First operational 'Anthropic Direct' / Fluidstack campus (CB-3 live July 2026; CB-4 & CB-5 adding 336 MW IT in Q4 2026\u2013Q1 2027)."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.8961,
+          32.3564
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Cipher Digital Barber Lake AI Campus (Fluidstack 10-Yr + Anthropic Direct Years 11\u201320) \u2014 Colorado City, TX",
+        "city": "Colorado City, Mitchell Co., TX",
+        "state_country": "TX, USA",
+        "region": "US \u2014 West Texas (ERCOT / Oncor)",
+        "is_texas": true,
+        "lat": 32.3564,
+        "lon": -100.8961,
+        "status": "Under Construction",
+        "tier": "Fluidstack Managed Campus (Net New)",
+        "overlap_landlord": "None (Cipher Digital / Fluidstack \u2014 Net New)",
+        "mw": 207.0,
+        "mw_it": 207.0,
+        "mw_gross": 300.0,
+        "mw_net_new": 207.0,
+        "mw_unit": "207 MW Critical IT / 300 MW Gross ERCOT Interconnection (168 MW Ph. 1 + 39 MW Ph. 2; Phased Delivery Q4 2026 \u2013 Q1 2027)",
+        "pue": "1.15\u20131.20 (Closed-Loop Liquid + Evaporative Assist)",
+        "power_utility": "Oncor / ERCOT Pre-Approved 300 MW Substation Adjacent to Lake Colorado City",
+        "cooling_water": "Closed-loop liquid cooling; Cipher bears first $359.3M of budget overruns, 50/50 split above that amortized over 20 yrs",
+        "hardware": "Google TPU Pods Leased via Broadcom & Operated by Fluidstack (10-yr $3.8B Fluidstack lease w/ Google backstop + Sept. 2026 binding 10-yr direct Anthropic lease for Years 11\u201320 = 20-yr total commitment)",
+        "docket_gate": "Pre-approved 300 MW ERCOT grid interconnection; Sept. 2026 lease amendment updated phased delivery to Q4 2026\u2013Q1 2027 and locked in Anthropic directly for Years 11\u201320 (Cipher Q3 2026 Form 10-Q Note 12).",
+        "loc_conf": "[HIGH \u2014 Cipher Digital Q3 2026 Form 10-Q Note 12]",
+        "mw_conf": "[HIGH \u2014 Cipher Digital SEC Filings: 207 MW Critical IT / 300 MW Gross]",
+        "obs_date": "2026-11-19",
+        "notes": "Sept. 2026 amendment revealed Anthropic signed a direct 10-year follow-on lease (Years 11\u201320) behind Fluidstack's initial 10-year Google-wrapped lease."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.8428,
+          33.8325
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Fluidstack / Aligned Abernathy HPC Campus (25-Yr Agreement) \u2014 Abernathy, TX",
+        "city": "Abernathy, Hale & Lubbock Cos., TX (Panhandle)",
+        "state_country": "TX, USA",
+        "region": "US \u2014 Texas Panhandle (SPP / Xcel Energy SPS \u2014 Non-ERCOT!)",
+        "is_texas": true,
+        "lat": 33.8325,
+        "lon": -101.8428,
+        "status": "Under Construction",
+        "tier": "Fluidstack Managed Campus (Net New)",
+        "overlap_landlord": "None (Fluidstack CS I LLC / Aligned \u2014 Net New)",
+        "mw": 168.0,
+        "mw_it": 168.0,
+        "mw_gross": 210.0,
+        "mw_net_new": 168.0,
+        "mw_unit": "168 MW Critical IT (~210 MW Gross; 638,000 Sq Ft Hall on 29.3 Ground-Leased Acres Inside Aligned's 120-Acre Parcel)",
+        "pue": "1.14\u20131.18 (Closed-Loop Liquid Cooling)",
+        "power_utility": "Xcel Energy Southwestern Public Service (Southwest Power Pool \u2014 SPP Grid, Outside ERCOT Jurisdiction!)",
+        "cooling_water": "Closed-loop cooling; Fluidstack investor group bought TeraWulf's 50.1% JV stake for ~$530M in July 2026 ($7.25% 2030 Secured Notes)",
+        "hardware": "Google TPU Pods Leased via Broadcom & Operated by Fluidstack (25-yr agreement, ~$9.5B TCV / $188/kW-mo, options to shorten to 15 or 20 yrs; Google credit backstop)",
+        "docket_gate": "Located in Texas Panhandle on the SPP grid (not ERCOT), insulating it from ERCOT Batch Zero queue delays while targeting late-2026 / early-2027 commissioning.",
+        "loc_conf": "[HIGH \u2014 TeraWulf Q3 2026 Form 10-Q Notes 1 & 11]",
+        "mw_conf": "[HIGH \u2014 TeraWulf Q3 2026 Form 10-Q: 168 MW Critical IT]",
+        "obs_date": "2026-11-19",
+        "notes": "Key structural nuance: although physically in Texas, Abernathy sits in SPP (Xcel SPS) rather than ERCOT."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.3522,
+          30.7608
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Hut 8 River Bend AI Campus (Fluidstack 15-Yr NNN Lease, Google-Wrapped) \u2014 St. Francisville, LA",
+        "city": "St. Francisville, West Feliciana Parish, LA",
+        "state_country": "LA, USA",
+        "region": "US \u2014 Gulf South (MISO / Entergy Louisiana)",
+        "is_texas": false,
+        "lat": 30.7608,
+        "lon": -91.3522,
+        "status": "Under Construction",
+        "tier": "Fluidstack Managed Campus (Net New)",
+        "overlap_landlord": "None (Hut 8 Corp. / Fluidstack \u2014 Net New)",
+        "mw": 245.0,
+        "mw_it": 245.0,
+        "mw_gross": 330.0,
+        "mw_net_new": 245.0,
+        "mw_unit": "245 MW Critical IT / 330 MW Entergy Utility Supply (First 65 MW Hall Target Q2 2027 + Three 60 MW Halls in 2027; Fluidstack Holds 1 GW ROFO)",
+        "pue": "1.15\u20131.20 (Closed-Loop Liquid Cooling Adjacent to River Bend Nuclear Station)",
+        "power_utility": "Entergy Louisiana (MISO South \u2014 330 MW Utility Supply; Financed by $3.25B 6.192% River Bend Senior Secured Notes due Nov. 15, 2042)",
+        "cooling_water": "Closed-loop cooling on 592-acre Mississippi River industrial site",
+        "hardware": "Google TPU Pods Leased via Broadcom & Operated by Fluidstack ($7.0B 15-yr triple-net lease, $159/kW-mo, 3x5-yr options to $17.7B; Google LLC financial backstop)",
+        "docket_gate": "Financed in full via $3.25B 6.192% IG-wrapped notes (Hut 8 Q3 2026 Form 10-Q Note 11); LPSC fast-track utility rules supportive, targeting Q2\u2013Q4 2027 phased hall deliveries.",
+        "loc_conf": "[HIGH \u2014 Hut 8 Q3 2026 Form 10-Q Note 11 & Dec. 17, 2025 Release]",
+        "mw_conf": "[HIGH \u2014 Hut 8 Q3 2026 Form 10-Q Note 11: 245 MW Critical IT / 330 MW Utility]",
+        "obs_date": "2026-11-19",
+        "notes": "Demonstrates the 'Google Wrap' credit mechanism: Hut 8's non-recourse River Bend SPV borrowed $3.25B through 2042 at 6.192% off Google's backstop."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.4856,
+          39.0436
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Meridian Arc AI Campus (Fluidstack / Coatue Next Frontier JV) \u2014 New Lebanon, IN",
+        "city": "New Lebanon, Sullivan Co., IN",
+        "state_country": "IN, USA",
+        "region": "US \u2014 Midwest (MISO / WIN Energy & Hoosier Energy)",
+        "is_texas": false,
+        "lat": 39.0436,
+        "lon": -87.4856,
+        "status": "Under Construction",
+        "tier": "Fluidstack Managed Campus (Net New)",
+        "overlap_landlord": "None (Meridian Compute JV \u2014 Net New)",
+        "mw": 430.0,
+        "mw_it": 430.0,
+        "mw_gross": 520.0,
+        "mw_net_new": 430.0,
+        "mw_unit": "430 MW Critical IT (~520 MW Gross Across Two Buildings: 245 MW + 185 MW on ~140 Acres; First 65 MW Hall Planned July 2027)",
+        "pue": "1.15\u20131.20 (Closed-Loop Liquid Cooling + Dedicated On-Site Substation)",
+        "power_utility": "WIN Energy REMC / Hoosier Energy (MISO \u2014 Milestones Require 300 MW by YE 2026 & +320 MW by Mar. 2027; Financed by $5.7B 6.25% Notes Rated BB- Exp.)",
+        "cooling_water": "Closed-loop cooling; Sullivan County Board of Commissioners approved development",
+        "hardware": "Google TPU Pods Leased via Broadcom & Operated by Fluidstack (15-yr base lease, ~$13.3B TCV / $172/kW-mo, 3x5-yr options; Coatue Next Frontier + Fluidstack sponsor JV w/ Google credit support)",
+        "docket_gate": "Sullivan County approved (exempt from restricted Indiana counties); critical path is hitting the 300 MW YE 2026 / 620 MW March 2027 MISO substation energization milestones.",
+        "loc_conf": "[MEDIUM \u2014 Fitch Ratings Apr. 17, 2026, Sullivan Co. Records & Measured AI]",
+        "mw_conf": "[MEDIUM \u2014 Meridian Arc HoldCo Bond Docs: 430 MW Critical IT]",
+        "obs_date": "2026-11-19",
+        "notes": "Sponsored by Fluidstack and Anthropic investor/adviser Coatue (Next Frontier); $5.7B notes priced at 6.25%."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.1264,
+          38.895
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Nscale Monarch Compute Campus (Up to $44.6B Vera Rubin GPU Services) \u2014 Point Pleasant, WV",
+        "city": "Point Pleasant, Mason Co., WV",
+        "state_country": "WV, USA",
+        "region": "US \u2014 Appalachia (100% Off-Grid Certified Gas Microgrid)",
+        "is_texas": false,
+        "lat": 38.895,
+        "lon": -82.1264,
+        "status": "Contracted / In Development",
+        "tier": "Dedicated Neocloud GPU Cluster (Net New)",
+        "overlap_landlord": "None (Nscale Global Holdings \u2014 Net New)",
+        "mw": 460.0,
+        "mw_it": 460.0,
+        "mw_gross": 575.0,
+        "mw_net_new": 460.0,
+        "mw_unit": "460 MW Critical IT (~575 MW Gross; Bldg 1 of 1.35 GW Phase 1 on 2,250+ Acres; Online Target Late 2027)",
+        "pue": "1.18\u20131.25 (Liquid Cooling Powered by Certified Off-Grid Gas Microgrid)",
+        "power_utility": "100% Islanded Behind-the-Meter Microgrid (~800 Caterpillar 2.5 MW Reciprocating Gas Engines = 2.0 GW Phase 1 Certified under WV Microgrid Law + 800 Mt CO2 Pore Space)",
+        "cooling_water": "Ohio River industrial corridor closed-loop liquid cooling",
+        "hardware": "NVIDIA Vera Rubin NVL72 Owned & Financed by Nscale (Aug. 2026 GPU Services Agreement: up to $44.6B through 2033 / ~$1,359/kW-mo finished compute; fees accrue only upon delivery & acceptance)",
+        "docket_gate": "FINANCING & BTM BUILD GATE: Per Form 424B4 (p. 179), Nscale must use best efforts to obtain qualifying GPU & DC financing within a specified window (part of $186.2B contingent/terminable bucket); WV enacted supportive state AI microgrid certification.",
+        "loc_conf": "[HIGH \u2014 Anthropic Form 424B4 p. 179 for $44.6B Deal; MEDIUM \u2014 WVDEP, RBN & CNBC for Mason Co. 460 MW]",
+        "mw_conf": "[MEDIUM \u2014 CNBC / Bloomberg / Measured AI: 460 MW Critical IT]",
+        "obs_date": "2026-11-19",
+        "notes": "Buys turnkey finished NVIDIA Vera Rubin compute (Nscale bears the ~$47B campus GPU CapEx bill); Anthropic pays nothing until racks are delivered and accepted."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2897,
+          27.9222
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Lambda / Hut 8 Beacon Point AI Campus (~$34.9B Terminable GPU Deal Reportedly Linked) \u2014 Corpus Christi / Nueces Co., TX",
+        "city": "Corpus Christi Metro (Nueces / San Patricio Area), TX",
+        "state_country": "TX, USA",
+        "region": "US \u2014 South Texas Coast (ERCOT / AEP Texas)",
+        "is_texas": true,
+        "lat": 27.9222,
+        "lon": -97.2897,
+        "status": "Contracted / In Development",
+        "tier": "Dedicated Neocloud GPU Cluster (Net New)",
+        "overlap_landlord": "None (Lambda / Hut 8 Beacon Point \u2014 Net New)",
+        "mw": 352.0,
+        "mw_it": 352.0,
+        "mw_gross": 440.0,
+        "mw_net_new": 352.0,
+        "mw_unit": "352 MW Critical IT (~440 MW Gross; Tied to Aug. 2026 ~$34.9B Lambda Agreement Inside $41.3B Total Lambda Stack)",
+        "pue": "1.15\u20131.20 (Vertiv Closed-Loop Liquid Cooling)",
+        "power_utility": "AEP Texas / ERCOT Grid Connection (Hut 8 Issued $4.25B 6.129% Baa2/BBB- Beacon Point Notes due Nov. 30, 2042 on 704 MW Two-Phase Campus)",
+        "cooling_water": "Vertiv closed-loop liquid cooling; zero local potable water evaporation",
+        "hardware": "NVIDIA Vera Rubin GPU Clusters Operated by Lambda (Form 424B4 p. 179: $41.3B total Lambda agreements into 2034, incl. ~$34.9B Aug. 2026 agreement)",
+        "docket_gate": "CURRENTLY TERMINABLE BY EITHER PARTY: Form 424B4 (p. 179) discloses Lambda missed the deadline to secure the underlying facility lease for the ~$34.9B August 2026 agreement, making it currently terminable by either party (neither has terminated as of Nov. 19, 2026).",
+        "loc_conf": "[HIGH \u2014 Form 424B4 p. 180 ($34.9B/$41.3B Lambda) & Hut 8 Q3 Presentation ($4.25B Nueces Co. Beacon Pt); LOW \u2014 Press Site Link]",
+        "mw_conf": "[LOW \u2014 Press / Tracker Estimate: ~350\u2013352 MW IT; Unconfirmed in Form 424B4]",
+        "obs_date": "2026-11-19",
+        "notes": "Crucial Form 424B4 disclosure: because Lambda missed its facility-lease deadline, $34.9B of the $41.3B Lambda stack is currently terminable at will by either side."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6664,
+          63.0336
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Volta / Bitdeer Tydal Hydropower AI Campus ($10B GPU Deal) \u2014 Tydal, Norway",
+        "city": "Tydal, Tr\u00f8ndelag, Norway",
+        "state_country": "Norway",
+        "region": "International \u2014 Nordics (Statnett NO3 100% Hydropower)",
+        "is_texas": false,
+        "lat": 63.0336,
+        "lon": 11.6664,
+        "status": "Under Construction",
+        "tier": "Dedicated Neocloud GPU Cluster (Net New)",
+        "overlap_landlord": "None (Volta Infrastructure / Bitdeer \u2014 Net New)",
+        "mw": 121.0,
+        "mw_it": 121.0,
+        "mw_gross": 140.0,
+        "mw_net_new": 121.0,
+        "mw_unit": "121 MW Critical IT (60.5 MW Ph. 1 Target Q4 2026 + 60.5 MW Ph. 2 Target Q1 2027; Tenant Holds Fee-Free Termination Option at Year 10 of 16-Yr $4.7B Lease)",
+        "pue": "1.08\u20131.12 (Sub-Arctic Free-Air + Direct Liquid Cooling)",
+        "power_utility": "100% Norwegian Hydropower (NO3 Price Zone \u2014 Lowest Industrial Power Cost in Europe)",
+        "cooling_water": "Cold-climate closed-loop liquid cooling",
+        "hardware": "NVIDIA Vera Rubin / Blackwell Ultra GPUs Operated by Volta Infrastructure (Bitdeer Q3 Release: 121 MW IT, 16-yr $4.7B lease w/ Yr-10 fee-free break for 'leading AI Lab'; LOW press attribution to Anthropic ~$10B GPU deal)",
+        "docket_gate": "Permitted existing Bitdeer hydropower site; execution risk centers on Bitdeer retrofit for Q4 2026 (60.5 MW) and Q1 2027 (60.5 MW) milestones.",
+        "loc_conf": "[HIGH \u2014 Bitdeer Q3 Release (Volta 121 MW Tydal); LOW \u2014 Secondary Attribution to Anthropic]",
+        "mw_conf": "[HIGH \u2014 Bitdeer Release: 121 MW Critical IT]",
+        "obs_date": "2026-11-19",
+        "notes": "Anthropic's dedicated Nordic green-hydro compute cluster via Brookfield-spinout Volta Infrastructure and Bitdeer."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.0148,
+          35.0565
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "SpaceX-xAI Colossus 1 & 2 Merchant GPU Bridge (Up to $120.5B; 90-Day Exit) \u2014 Memphis, TN & Southaven, MS",
+        "city": "Memphis, Shelby Co., TN & Southaven, DeSoto Co., MS",
+        "state_country": "TN / MS, USA",
+        "region": "US \u2014 Mid-South (TVA / MLGW + Solaris BTM Gas)",
+        "is_texas": false,
+        "lat": 35.0565,
+        "lon": -90.0148,
+        "status": "Operational",
+        "tier": "Shared Landlord Capacity (Already in SpaceX Atlas)",
+        "overlap_landlord": "SpaceX-xAI Atlas (0 MW Net New)",
+        "mw": 550.0,
+        "mw_it": 550.0,
+        "mw_gross": 650.0,
+        "mw_net_new": 0.0,
+        "mw_unit": "~550 MW Critical IT (~650 MW Gross; Expanded May\u2013Oct. 2026 to ~$3.1B/Mo at Full Dec. 2026 Delivery \u2014 Already Counted in SpaceX-xAI Atlas)",
+        "pue": "1.15\u20131.18 (Direct Liquid + Hybrid Dry/Adiabatic Cooling)",
+        "power_utility": "MLGW/TVA Substations + 15 Permitted CTC Turbines + Stateline Solaris BTM Gas JV + Tesla Megapacks",
+        "cooling_water": "Hybrid liquid/adiabatic cooling; $80M greywater recycling plant planned",
+        "hardware": "NVIDIA H100, H200, GB200 & GB300 GPUs Owned by SpaceX.AI LLC (Up to $120.5B ceiling into 2029; ~$3.1B/mo at full Dec. 2026 ramp; BILATERAL 90-DAY TERMINATION NOTICE after Jan. & Mar. 2027 lockups!)",
+        "docket_gate": "Operational scarcity bridge. Exposed to NAACP Clean Air Act suit & July 2027 temporary Southaven turbine retirement on SpaceX's side, while giving Anthropic a 90-day escape valve once cheaper TPU/Direct halls energize in 2027\u20132028.",
+        "loc_conf": "[HIGH \u2014 Anthropic Form 424B4 p. 179 & SpaceX Q3 2026 Form 10-Q]",
+        "mw_conf": "[LOW-MEDIUM \u2014 ~550 MW IT Derived from $3.1B/Mo Full Dec. 2026 Run-Rate vs. Initial $1.25B/Mo ~300\u2013500 MW]",
+        "obs_date": "2026-11-19",
+        "notes": "Counted as 0 MW Net New in the 10-company deduplicated total because Colossus 1 & 2 are already mapped in SpaceX-xAI's 18-site atlas."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.4853,
+          41.6986
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "AWS Project Rainier Primary Hub (Dedicated Trainium2/3 Supercluster) \u2014 New Carlisle, IN",
+        "city": "New Carlisle, St. Joseph Co., IN",
+        "state_country": "IN, USA",
+        "region": "US \u2014 Midwest (PJM / Indiana Michigan Power)",
+        "is_texas": false,
+        "lat": 41.6986,
+        "lon": -86.4853,
+        "status": "Operational",
+        "tier": "Shared Landlord Capacity (Already in AWS Atlas)",
+        "overlap_landlord": "Amazon AWS Atlas (0 MW Net New)",
+        "mw": 1040.0,
+        "mw_it": 1040.0,
+        "mw_gross": 1200.0,
+        "mw_net_new": 0.0,
+        "mw_unit": "1,040 MW Critical IT Operational & Scaling Toward ~2.0+ GW (Already Counted in Amazon AWS 110-Site Atlas)",
+        "pue": "1.12\u20131.15 (AWS Custom Liquid/Air Cooling)",
+        "power_utility": "Indiana Michigan Power (AEP / PJM) + NIPSCO 2.4 GW Northern Indiana Expansion ($11B + $15B AWS Indiana Pledges)",
+        "cooling_water": "AWS high-efficiency cooling; activated Oct. 29, 2025 with ~500k Trainium2 chips",
+        "hardware": "AWS Trainium2 & Trainium3 Clusters Dedicated to Claude Training & Bedrock Serving (Part of Anthropic's $110.0B Non-Cancelable AWS Minimum May 2026\u2013Apr. 2036)",
+        "docket_gate": "Operational (~1 GW active); later expansion phases depend on PJM / NIPSCO transmission & generation builds.",
+        "loc_conf": "[HIGH \u2014 Amazon Official Project Rainier Releases & Form 424B4 p. 179]",
+        "mw_conf": "[MEDIUM \u2014 Oakcliff AWS Atlas & Measured AI: ~1,040 MW Active]",
+        "obs_date": "2026-11-19",
+        "notes": "Primary physical home of Claude training on AWS Trainium2; excluded from net-new 10-company MW to prevent double-counting with AWS."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.0664,
+          32.5567
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "AWS Project Rainier South \u2014 Canton & Ridgeland Campuses \u2014 Madison Co., MS",
+        "city": "Canton & Ridgeland, Madison Co., MS",
+        "state_country": "MS, USA",
+        "region": "US \u2014 South (MISO / Entergy Mississippi)",
+        "is_texas": false,
+        "lat": 32.5567,
+        "lon": -90.0664,
+        "status": "Operational",
+        "tier": "Shared Landlord Capacity (Already in AWS Atlas)",
+        "overlap_landlord": "Amazon AWS Atlas (0 MW Net New)",
+        "mw": 850.0,
+        "mw_it": 850.0,
+        "mw_gross": 1000.0,
+        "mw_net_new": 0.0,
+        "mw_unit": "~850 MW Critical IT Dedicated Allocation (>350 MW Active Today, Ramping Past 1.0 GW Across Canton & Ridgeland \u2014 Already in AWS Atlas)",
+        "pue": "1.15 (AWS High-Density Cooling)",
+        "power_utility": "Entergy Mississippi (MISO South + 754 MW Traceview Gas Station; Part of AWS $25B MS Pledge)",
+        "cooling_water": "Closed-loop & evaporative-assist cooling",
+        "hardware": "AWS Trainium2 & Trainium3 Clusters Dedicated to Anthropic",
+        "docket_gate": "Initial halls operational; >500 MW expansion gated by 2027 Entergy substation completion.",
+        "loc_conf": "[HIGH \u2014 AWS Releases; MEDIUM \u2014 Measured AI Rainier Allocation]",
+        "mw_conf": "[MEDIUM \u2014 Measured AI & Oakcliff AWS Atlas]",
+        "obs_date": "2026-11-19",
+        "notes": "Second live Project Rainier state cluster; already counted inside Amazon AWS's 44.4 GW mapped atlas."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.1481,
+          41.0919
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "AWS Susquehanna Cumulus Nuclear-Powered Campus (Anthropic Allocation) \u2014 Salem Twp., PA",
+        "city": "Salem Township (Berwick), Luzerne Co., PA",
+        "state_country": "PA, USA",
+        "region": "US \u2014 Mid-Atlantic (PJM / Talen Susquehanna Nuclear + PPL)",
+        "is_texas": false,
+        "lat": 41.0919,
+        "lon": -76.1481,
+        "status": "Under Construction",
+        "tier": "Shared Landlord Capacity (Already in AWS Atlas)",
+        "overlap_landlord": "Amazon AWS Atlas (0 MW Net New)",
+        "mw": 960.0,
+        "mw_it": 840.0,
+        "mw_gross": 960.0,
+        "mw_net_new": 0.0,
+        "mw_unit": "960 MW Campus Envelope (~840 MW IT; Front-of-Meter 1,920 MW Talen Nuclear PPA Through 2042 \u2014 Already in AWS Atlas)",
+        "pue": "1.14 (Nuclear-Adjacent High-Density Campus)",
+        "power_utility": "Talen Energy Susquehanna Nuclear Plant + PPL Electric Dedicated 500/230 kV Lines (Scheduled May 2028 after FERC Co-Location Reconfiguration)",
+        "cooling_water": "Closed-loop cooling",
+        "hardware": "AWS Trainium2/3 Clusters Serving Anthropic $110B AWS Commitment",
+        "docket_gate": "Restructured from behind-the-meter to front-of-meter PPL grid connection after FERC ruling; full 500/230 kV transmission upgrade due May 2028.",
+        "loc_conf": "[HIGH \u2014 Talen/AWS Filings; MEDIUM \u2014 Measured AI Anthropic Allocation]",
+        "mw_conf": "[HIGH \u2014 960 MW Campus in AWS Atlas]",
+        "obs_date": "2026-11-19",
+        "notes": "Already counted in AWS's 110-site atlas (0 MW net new in 10-company sum)."
+      }
+    }
+  ]
+}
